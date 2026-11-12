@@ -6,11 +6,6 @@
 
 **Detect potholes in road images and videos using only hand-crafted OpenCV operations: no AI, ML or deep learning.**
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?logo=opencv&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-app-FF4B4B?logo=streamlit&logoColor=white)
-![Tests](https://img.shields.io/badge/tests-127%20passed-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
 
 <img src="docs/screenshots/02_image_detection.png" alt="Image detection in the Streamlit app" width="850">
 
@@ -160,16 +155,7 @@ Known limitations are recorded as `xfail` tests so they stay visible. Results: *
 - **No temporal context in video:** each frame is processed on its own. Tracking or temporal smoothing would reduce flicker.
 - **Speed:** the σ=50 background blur dominates run time. Blurring a ¼-scale copy is about 27× faster with ≤1 grey-level difference.
 
-## Team
 
-Group project by a team of four:
-
-| Member | Responsibility |
-|---|---|
-| Member 1 | Dataset analysis, annotation parsing, evaluation metrics |
-| Member 2 | Method A: feature extraction (darkness, Sobel edge density, fusion, thresholding) |
-| Member 3 | Method B, morphology, contour filtering, parameter tuning |
-| Member 4 | Streamlit app, video pipeline, testing, documentation |
 
 ## License
 
