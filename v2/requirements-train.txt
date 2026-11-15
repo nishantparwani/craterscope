@@ -1,0 +1,5 @@
+# Colab (T4) training. torch + torchvision are preinstalled on Colab.
+-r requirements.txt
+ultralytics>=8.4.60     # >= 8.4.60 for native ONNX INT8 export
+onnxslim
+onnxscript              # only used if torch's dynamo ONNX exporter is needed

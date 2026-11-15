@@ -1,0 +1,14 @@
+# Local CPU inference, evaluation and the Streamlit app (Windows 11, Python 3.11 or 3.12)
+numpy>=1.26
+opencv-python>=4.9
+pillow>=10.0
+onnxruntime>=1.18
+onnx>=1.16              # needed by onnxruntime.quantization (INT8 export)
+scikit-learn>=1.4
+scikit-image>=0.22
+joblib>=1.3
+psutil>=5.9
+pycocotools>=2.0.8      # COCO mAP@0.5 and mAP@0.5:0.95 (Windows wheels available)
+streamlit>=1.36
+supervision>=0.25
+trackers>=2.0           # ByteTrack (ByteTrackTracker); supervision.ByteTrack is the fallback
