@@ -6,6 +6,8 @@
 
 **Research release: a reproducible comparison of classical proposals, a learned gate, road-strip masking, and YOLO11n.**
 
+<img src="../docs/screenshots/02_image_detection.png" alt="Original CraterScope classical model detecting a pothole in the earlier app" width="850">
+
 Version 2 is the current research implementation in this repository. It supersedes the original classical-only prototype for the experiments described here. Version 3 is still research planning; it has not been published as a release.
 
 </div>
@@ -37,6 +39,14 @@ The final results do **not** support the original claim that a hybrid cascade be
 | Video ≥ 15 FPS at 720p (H3) | Not measured | Rerun with `--only 7 9 10 --clips clips`. |
 
 Metrics are from the version 2 evaluation on the frozen test split. Thresholds were selected on validation. The YOLO11n number is a reference result, not evidence that the hybrid gate improves it.
+
+### Earlier CraterScope model
+
+The images below are existing version 1 artifacts from this repository, included to show the original app and model without rerunning inference. They are historical examples and are **not version 2 model outputs**.
+
+| Original app | Original model test examples |
+|---|---|
+| ![Version 1 app detecting a pothole](../docs/screenshots/02_image_detection.png) | ![Version 1 model qualitative detection examples](../results/qualitative_samples.png) |
 
 ### What the results support
 
