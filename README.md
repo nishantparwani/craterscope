@@ -2,9 +2,9 @@
 
 # 🕳️ CraterScope
 
-### Pothole Detection with Classical Image & Video Processing
+### Version 1: Classical Image & Video Processing
 
-**Detect potholes in road images and videos using only hand-crafted OpenCV operations: no AI, ML or deep learning.**
+**Archived prototype:** detect potholes in road images and videos using hand-crafted OpenCV operations, with no learned model.
 
 
 <img src="docs/screenshots/02_image_detection.png" alt="Image detection in the Streamlit app" width="850">
@@ -12,6 +12,10 @@
 </div>
 
 ---
+
+## Project versions
+
+The repository now includes **CraterScope 2.0**, a research implementation that evaluates classical proposals, learned gates, road-strip masking, and YOLO11n. Start with the [version 2 README](v2/README.md) for its measured results, setup, and version 3 research assessment. Version 1 remains available here as the original classical-only prototype.
 
 ## Overview
 
